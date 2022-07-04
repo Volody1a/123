@@ -1,0 +1,209 @@
+body {
+  font-family: "Aleo", serif;
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: block;
+}
+
+.navigation {
+  background: rgba(242, 120, 92, 0.7);
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Logo1 .logo2 {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 50%;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.menu-link {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.login {
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #0d606f;
+  color: #fff;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: "Aleo", serif;
+  font-size: 80px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 96px;
+  font-weight: 700;
+}
+
+.preview {
+  box-sizing: border-box;
+  background-image: url(img/shapka.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  margin-top: -90px;
+  z-index: -1;
+  display: flex;
+}
+
+.greeting {
+  margin-top: 122px;
+  margin-left: 120px;
+  width: 892px;
+  height: 422px;
+}
+
+.text {
+  font-family: "Aleo", serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.par {
+  padding-bottom: 46px;
+  padding-top: 55px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Start-Planning {
+  position: relative;
+  width: 228px;
+  height: 59px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0d606f;
+  margin-right: 18px;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+.searching {
+  width: 892px;
+  height: 95px;
+  position: absolute;
+  border-radius: 10px;
+  border: none;
+  opacity: 70%;
+}
+
+.searching::placeholder {
+  color: #f2785c;
+  font-size: 24px;
+  font-family: "Aleo", serif;
+  padding-left: 41px;
+  font-style: italic;
+}
+
+.captionSteps {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: #f2785c;
+  font-size: 40px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.steps {
+  width: 1177px;
+  height: 247px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 80px;
+  flex-direction: column;
+}
+
+.Mainbut {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.but {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #0d606f;
+  cursor: pointer;
+}
+
+.logoSteps {
+  background-color: #f2785c;
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+
+.destinations {
+  margin-top: 95px;
+}
+
+.captionDist {
+  display: flex;
+  justify-content: center;
+  font-family: "Red Hat Text", sans-serif;
+  color: #f2785c;
+  font-size: 40px;
+}
+
+.sliders {
+  height: 800px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.country {
+  margin-left: 60px;
+  border-radius: 16px;
+  margin-top: 46px;
+}
+
+.radiocheck {
+  margin-top: 24px;
+  margin-left: 50%;
+}
+
+.radiocheck input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: #f2785c;
+}
